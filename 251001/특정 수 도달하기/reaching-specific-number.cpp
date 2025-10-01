@@ -16,6 +16,7 @@ int main() {
             break;
         }
         else {
+            a = i;
             sum += n[i];
         }
     }
