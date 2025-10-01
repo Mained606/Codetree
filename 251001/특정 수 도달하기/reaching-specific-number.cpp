@@ -9,9 +9,9 @@ int main() {
     cout << fixed;
     cout.precision(1);
 
-    for(int i = 0; i < 10; i++) {
+    for(int i = 1; i <= 10; i++) {
         cin >> n[i];
-        a++;
+        a = i;
         if(n[i] >= 250) {
             break;
         }
