@@ -11,7 +11,7 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         cin >> n[i];
-        a = i;
+        a++;
         if(n[i] >= 250) {
             break;
         }
