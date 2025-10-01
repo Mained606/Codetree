@@ -11,13 +11,13 @@ int main() {
 
     for(int i = 1; i <= 10; i++) {
         cin >> n[i];
-        a = i;
         if(n[i] >= 250) {
             break;
         }
         else {
             sum += n[i];
         }
+        a = i;
     }
 
     cout << sum << " ";
