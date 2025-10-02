@@ -7,10 +7,10 @@ int main() {
     int avg = 0;
     int cnt = 0;
     
-    for(int i = 0; i < 10; i++) {
+    for(int i = 1; i <= 10; i++) {
         cin >> n[i];
-        if(n[i] % 2 == 0) sum += n[i];
-        if(n[i] % 3 == 0) {
+        if(i % 2 == 0) sum += n[i];
+        if(i % 3 == 0) {
             cnt++;
             avg += n[i];
         }
